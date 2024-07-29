@@ -1,0 +1,201 @@
+.tokenomics {
+  display: flex;
+  flex-direction: column;
+  margin-top: 140px;
+}
+@media(min-width:1280px){
+  .tokenomics {
+ 
+    margin-top: 120px;
+  }
+}
+
+.card--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+@media (min-width: 1024px) {
+  .card--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+}
+
+.tokenomics--card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: 5px solid #DE1A26;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: url("../../Image/card_bg_2.jpeg") center center;
+    object-fit: contain;
+}
+
+.card-svg{
+  color: white;
+  
+}
+
+@media (min-width: 768px) {
+  .tokenomics--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    border: 5px solid #DE1A26;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: url("../../Image/card_bg_2.jpeg") center center;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 1024px) {
+  .tokenomics--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    border: 5px solid #DE1A26;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: url("../../Image/card_bg_2.jpeg") center center;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 1280px) {
+  .tokenomics--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    gap: 20px;
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    border: 5px solid #DE1A26;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: url("../../Image/card_bg_2.jpeg") center center;
+    object-fit: contain;
+  }
+
+  
+}
+
+.tokenomics--card:hover {
+  transform: scale(1.1);
+}
+
+.card--line {
+  height: 70px;
+  background-color: #DE1A26;
+  width: 10px;
+}
+
+@media (min-width: 768px) {
+  .card--line {
+    height: 70px;
+    background-color: #DE1A26;
+    width: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card--line {
+    width: 110px;
+    background-color: #DE1A26;
+    height: 10px;
+  }
+}
+
+.tokenomics--card p {
+  color: white ;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.tokenomics--card img {
+  object-fit: contain;
+  width: 170px;
+  height: 170px;
+  margin-top: 10px;
+  
+}
+
+.svg-params{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .tokenomics--card img {
+    width: 230px;
+  height: 230px;
+    object-fit: contain;
+  }
+  .tokenomics--card p {
+    font-size: 3.5rem;
+  }
+  .svg-params{
+    width: 170px;
+    height: 170px;
+  }
+  
+
+}
+
+@media (min-width: 1024px) {
+  .tokenomics--card img {
+
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+  }
+  .tokenomics--card p {
+    font-size: 1.7rem;
+  }
+
+  .svg-params{
+    width: 100px;
+    height: 100px;
+  }
+  
+}
+
+

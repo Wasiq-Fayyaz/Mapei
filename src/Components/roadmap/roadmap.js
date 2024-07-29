@@ -1,0 +1,70 @@
+import "./roadmap.css";
+import { Fade } from "react-awesome-reveal";
+export default function Roadmap() {
+  return (
+    <section className="roadmap">
+      <div className="section--heading">
+        <h3>ROADMAP</h3>
+        <p>PHASES FOR ROADMAP</p>
+      </div>
+
+      <div className="road--map--container">
+        <div className="road--map--card--container">
+         <div className="road--map--card">
+          <Fade>
+            <div className="road--map--text">
+              
+              <h5>Phase I</h5>
+              <ul>
+                <li><span>Launching Mufasa on Base</span></li>
+                <li><span>Website Release</span></li>
+                <li><span>LP Lock</span></li>
+                <li><span>Renounce</span></li>
+                <li><span>Update Socials</span></li>
+                <li><span>100+ Holders</span></li>
+              </ul>
+              
+            </div>
+            </Fade>
+          </div>
+          <div className="card--line">
+          </div>
+          <div className="road--map--card">
+            <Fade>
+            <div className="road--map--text">
+              <h5>Phase II</h5>
+              <ul>
+                <li><span>Start Marketing</span></li>
+                <li><span>Getting KOLS</span></li>
+                <li><span>Community Building</span></li>
+                <li><span>Website Update</span></li>
+                <li><span>Lock Extend for 6 Months</span></li>
+                <li><span>Dex Update</span></li>
+                <li><span>500+ Holders</span></li>
+              </ul>
+            </div>
+            </Fade>
+          </div>
+          <div className="card--line">
+          </div>
+          <div className="road--map--card">
+            <Fade>
+            <div className="road--map--text">
+              <h5>Phase III</h5>
+              <ul>
+                <li><span>CMC Listing</span></li>
+                <li><span>CG Listing</span></li>
+                <li><span>Website Update</span></li>
+                <li><span>Lock Extend for 1 Year</span></li>
+                <li><span>Partnerships</span></li>
+                <li><span>1500+ Holders</span></li>
+              </ul>
+            </div>
+            </Fade>
+          </div>
+        </div>
+      
+      </div>
+    </section>
+  );
+}

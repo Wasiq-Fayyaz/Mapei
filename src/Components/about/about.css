@@ -1,0 +1,364 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+  padding: 5px;
+}
+
+@media (min-width: 1280px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 270px;
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+.section--heading {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.section--heading h3 {
+  color: #de1a26;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 700;
+}
+.about-sub-heading {
+  color: #de1a26;
+}
+
+.section--heading p {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.about--2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about--2 h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media (min-width:768px){
+  .about--2 h2{
+    font-size: 3rem;
+  }
+}
+
+.about--2 div p {
+  color: white;
+  font-family: "Anton", sans-serif;
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: justify;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+@media (min-width: 1024px) {
+  .about--2 div p {
+    width: 90%;
+  }
+}
+
+.about--2 img {
+  width: 250px;
+  height: 250px;
+  --g: #0000, #000 0.5deg 90deg, #0000 91deg;
+  --m: conic-gradient(from 45deg, var(--g)) 20px 0 no-repeat,
+    conic-gradient(from 135deg, var(--g)) 0 20px no-repeat,
+    conic-gradient(from 225deg, var(--g)) -20px 0 no-repeat,
+    conic-gradient(from 315deg, var(--g)) 0 -20px no-repeat;
+  -webkit-mask: var(--m);
+  mask: var(--m);
+  transition: 0.3s linear;
+  filter: grayscale(0.5);
+  cursor: pointer;
+  border: 4px solid #de1a26;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-top: 40px;
+}
+.about--2 img:hover {
+  -webkit-mask-position: 0 0;
+  mask-position: 0 0;
+  filter: grayscale(0);
+}
+
+.about--img--container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media (min-width:768px){
+  .about--2 img{
+    width: 350px;
+  height: 350px;
+  }
+}
+
+.button--container {
+  display: flex;
+}
+
+@media (min-width: 1024px) {
+  .about--img--container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  .about--2 {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .about--2 h2 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: start;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    margin-top: 20px;
+  }
+
+  .about--2 img {
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .about--2 h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: start;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .about-sub-heading {
+    color: #de1a26;
+  }
+}
+
+/* padding: 30px 50px;
+padding: 30px 30px;
+padding: 30px 20px; */
+.button--gradient {
+  min-width: 280px;
+  min-height: 50px;
+  font-size: 18px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #de1a26, #de1a26);
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  padding: 10px;
+  color: white;
+}
+
+@media (min-width:768px){
+  .button--gradient{
+    min-width: 400px;
+    min-height: 80px;
+    font-size: 2.5rem;
+    letter-spacing: 6px;
+    margin-top: 40px;
+  }
+}
+
+.button--gradient::before {
+  content: "";
+  border-radius: 15px;
+  min-width: calc(280px + 10px);
+  min-height: calc(50px + 10px);
+  border: 6px solid white;
+  box-shadow: 0 0 60px #de1a26;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+.button--gradient:hover,
+.button--gradient:focus {
+  transform: translateY(-6px);
+}
+
+.button--gradient:hover::before,
+.button--gradient:focus::before {
+  opacity: 1;
+}
+
+.button--gradient::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 6px solid #edbd2c;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 0.8s;
+}
+
+@media (min-width:768px){
+  .button--gradient{
+    min-width: 400px;
+    min-height: 80px;
+    font-size: 2.5rem;
+    letter-spacing: 6px;
+    margin-top: 40px;
+  }
+  .button--gradient::before{
+    min-width: calc(280px + 120px);
+    min-height: calc(50px + 30px);
+  }
+  .button--gradient::after{
+    border: 6px solid #de1a26;
+  }
+}
+
+.button--gradient:hover::after,
+.button--gradient:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+.button--gradient a {
+  text-decoration: none;
+  color: black;
+}
+
+.button--container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .button--container {
+    display: flex;
+    justify-content: start;
+  }
+
+  .button--gradient {
+    min-width: 300px;
+    min-height: 60px;
+    font-size: 2rem;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #de1a26, #de1a26);
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    color: white;
+    letter-spacing: 5px;
+  }
+
+  .button--gradient::before {
+    content: "";
+    border-radius: 15px;
+    min-width: calc(250px + 50px);
+    min-height: calc(60px + 10px);
+    border: 6px solid white;
+    box-shadow: 0 0 60px #de1a26;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .button--gradient:hover,
+  .button--gradient:focus {
+    transform: translateY(-6px);
+  }
+
+  .button--gradient:hover::before,
+  .button--gradient:focus::before {
+    opacity: 1;
+  }
+
+  .button--gradient::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 6px solid #de1a26;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 0.8s;
+  }
+
+  .button--gradient:hover::after,
+  .button--gradient:focus::after {
+    animation: none;
+    display: none;
+  }
+
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
+}
