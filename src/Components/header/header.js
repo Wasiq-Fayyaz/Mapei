@@ -43,9 +43,6 @@ export default function Header() {
             <li>
               <AnchorLink href="#tokenomics">TOKENOMICS</AnchorLink>
             </li>
-            <li>
-              <AnchorLink href="#contact">JOIN US</AnchorLink>
-            </li>
           </ul>
         </div>
 
@@ -67,9 +64,6 @@ export default function Header() {
                 </li>
                 <li>
                   <AnchorLink href="#tokenomics">TOKENOMICS</AnchorLink>
-                </li>
-                <li>
-                  <AnchorLink href="#contact">JOIN US</AnchorLink>
                 </li>
               </ul>
             </>
@@ -116,9 +110,6 @@ export default function Header() {
       </section>
       <section id="tokenomics">
         <Tokenomics />
-      </section>
-      <section id="contact">
-        <Contact />
       </section>
     </header>
   );
