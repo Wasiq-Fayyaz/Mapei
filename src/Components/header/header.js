@@ -117,9 +117,6 @@ export default function Header() {
       <section id="tokenomics">
         <Tokenomics />
       </section>
-      // <section id="roadmap">
-      //   <Roadmap />
-      // </section>
       <section id="contact">
         <Contact />
       </section>
