@@ -43,9 +43,6 @@ export default function Header() {
             <li>
               <AnchorLink href="#tokenomics">TOKENOMICS</AnchorLink>
             </li>
-            // <li>
-            //   <AnchorLink href="#roadmap">ROADMAP</AnchorLink>
-            // </li>
             <li>
               <AnchorLink href="#contact">JOIN US</AnchorLink>
             </li>
@@ -71,9 +68,6 @@ export default function Header() {
                 <li>
                   <AnchorLink href="#tokenomics">TOKENOMICS</AnchorLink>
                 </li>
-                // <li>
-                //   <AnchorLink href="#roadmap">ROADMAP</AnchorLink>
-                // </li>
                 <li>
                   <AnchorLink href="#contact">JOIN US</AnchorLink>
                 </li>
