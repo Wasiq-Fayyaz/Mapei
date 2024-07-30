@@ -29,7 +29,7 @@ export default function Header() {
         <div className="d-flex align-items-center justify-content-center gap-2 ">
           <img src={mapei_logo} alt="404" className="logo-img"></img>
           <p className="logo-letter">
-            Ma<span className="logo-letter-sub">pei</span>
+            $Maga<span className="logo-letter-sub">peipei</span>
           </p>
         </div>
         <div className="categories align-items-center pe-3">
@@ -91,7 +91,7 @@ export default function Header() {
         <div>
           <Slide cascade triggerOnce>
             <p className="punch--line--base">
-              Ma<span className="punch-line-base-sub">pei</span>
+              $Ma<span className="punch-line-base-sub">pei</span>
             </p>
 
             <p className="punch--line--main">
@@ -100,11 +100,7 @@ export default function Header() {
               <span className="punch-line-main-sub">Mapei</span>
             </p>
             <p className="punch--line--desc">
-              Join the movement to Make America Great Again! Together, we can
-              revitalize our spirit, champion freedom, and ignite prosperity.
-              Celebrate our diversity, resilience, and dreams as we work to
-              restore greatness and unity for all. Let's reignite hope and drive
-              America toward unparalleled success
+            $MAPEI is the newest and most exciting meme coin on the block! Inspired by the legendary MAGA and the playful PEIPEI, MAPEI combines the best of both worlds to create a coin that's not just about fun and memes, but also about community and growth.
             </p>
           </Slide>
         </div>

@@ -16,8 +16,10 @@ export default function About() {
       <div className="about--2">
         <div>
           <h2>
-            MAPEI JOINS <span className="about-sub-heading">CRYPTOVERSE</span>{" "}
-            TO SAVE <span className="about-sub-heading">AMERICA</span>
+          $MAGA ATH 308M, $PEIPEI ATH 195M.  $MAGA +PEIPEI = $MAPEI?
+          $MAGA ATH <span className="about-sub-heading">308M</span>{" "}
+          $PEIPEI ATH<span className="about-sub-heading">195M</span>
+          $MAGA ATH <span className="about-sub-heading">308M</span>{" "}
           </h2>
           <Slide cascade triggerOnce>
           <p>
