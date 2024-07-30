@@ -34,18 +34,18 @@ export default function Header() {
         </div>
         <div className="categories align-items-center pe-3">
           <ul className="d-flex list-unstyled gap-4 m-0">
-            <li>
-              <a href="/">HOME</a>
-            </li>
+            // <li>
+            //   <a href="/">HOME</a>
+            // </li>
             <li>
               <AnchorLink href="#about">ABOUT</AnchorLink>
             </li>
             <li>
               <AnchorLink href="#tokenomics">TOKENOMICS</AnchorLink>
             </li>
-            <li>
-              <AnchorLink href="#roadmap">ROADMAP</AnchorLink>
-            </li>
+            // <li>
+            //   <AnchorLink href="#roadmap">ROADMAP</AnchorLink>
+            // </li>
             <li>
               <AnchorLink href="#contact">JOIN US</AnchorLink>
             </li>
@@ -62,18 +62,18 @@ export default function Header() {
                 <Cancel />
               </div>
               <ul>
-                <li>
-                  <a href="/">HOME</a>
-                </li>
+                // <li>
+                //   <a href="/">HOME</a>
+                // </li>
                 <li>
                   <AnchorLink href="#about">ABOUT</AnchorLink>
                 </li>
                 <li>
                   <AnchorLink href="#tokenomics">TOKENOMICS</AnchorLink>
                 </li>
-                <li>
-                  <AnchorLink href="#roadmap">ROADMAP</AnchorLink>
-                </li>
+                // <li>
+                //   <AnchorLink href="#roadmap">ROADMAP</AnchorLink>
+                // </li>
                 <li>
                   <AnchorLink href="#contact">JOIN US</AnchorLink>
                 </li>
@@ -100,11 +100,7 @@ export default function Header() {
               <span className="punch-line-main-sub">Mapei</span>
             </p>
             <p className="punch--line--desc">
-              Join the movement to Make America Great Again! Together, we can
-              revitalize our spirit, champion freedom, and ignite prosperity.
-              Celebrate our diversity, resilience, and dreams as we work to
-              restore greatness and unity for all. Let's reignite hope and drive
-              America toward unparalleled success
+              MAPEI is the newest and most exciting meme coin on the block! Inspired by the legendary MAGA and the playful PEIPEI, MAPEI combines the best of both worlds to create a coin that's not just about fun and memes, but also about community and growth.
             </p>
           </Slide>
         </div>
@@ -127,9 +123,9 @@ export default function Header() {
       <section id="tokenomics">
         <Tokenomics />
       </section>
-      <section id="roadmap">
-        <Roadmap />
-      </section>
+      // <section id="roadmap">
+      //   <Roadmap />
+      // </section>
       <section id="contact">
         <Contact />
       </section>
