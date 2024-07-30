@@ -41,12 +41,7 @@ export default function Contact() {
             </Slide>
           </div>
         </div>
-        <Slide direction="up" triggerOnce>
-        <div className="animation--container">
-          <iframe src="https://lottie.host/embed/f25334c6-6205-4f6b-81af-5510e2e87231/IktyeLs7N9.json"
-          className="animation"></iframe>
-        </div>
-        </Slide>
+        
       </div>
       <div className="social--media--container">
         <Fade cascade triggerOnce>
