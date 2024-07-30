@@ -16,20 +16,13 @@ export default function About() {
       <div className="about--2">
         <div>
           <h2>
-            MAPEI JOINS <span className="about-sub-heading">CRYPTOVERSE</span>{" "}
-            TO SAVE <span className="about-sub-heading">AMERICA</span>
+            $MAGA ATH<span className="about-sub-heading">308M</span>{" "}
+            $PEIPEI ATH <span className="about-sub-heading">195M</span>{" "}
+            $MAGA + PEIPEI <span className="about-sub-heading">$MAPEI?</span>
           </h2>
           <Slide cascade triggerOnce>
           <p>
-            Revitalize the American spirit and join the movement to Make America
-            Great Again! As we embrace innovation, champion freedom, and ignite
-            prosperity, we pave the way for a brighter future. Together, we
-            celebrate the strength of our diverse communities, the resilience of
-            our people, and the promise of a nation built on dreams and
-            determination. <br /> <br /> Stand with us as we work to restore
-            greatness, foster unity, and create opportunities for all. Let’s
-            reignite the flame of hope and drive America towards an era of
-            unparalleled success and unity!
+            By merging the iconic elements of MAGA and PEIPEI, MAPEI stands out in the crowded meme coin market. Don’t miss out on the next big thing.
           </p>
           
           <div className="button--container">
