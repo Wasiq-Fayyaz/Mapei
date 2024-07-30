@@ -27,7 +27,7 @@ export default function About() {
           
           <div className="button--container">
             <a
-              href="https://t.me/MufasaPortal"
+              href="https://t.me/Mapeierc20"
               target="_blank"
               rel="noopener noreferrer"
             >
