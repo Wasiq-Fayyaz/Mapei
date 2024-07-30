@@ -34,9 +34,9 @@ export default function Header() {
         </div>
         <div className="categories align-items-center pe-3">
           <ul className="d-flex list-unstyled gap-4 m-0">
-            // <li>
-            //   <a href="/">HOME</a>
-            // </li>
+            <li>
+              <a href="/">HOME</a>
+            </li>
             <li>
               <AnchorLink href="#about">ABOUT</AnchorLink>
             </li>
@@ -62,9 +62,9 @@ export default function Header() {
                 <Cancel />
               </div>
               <ul>
-                // <li>
-                //   <a href="/">HOME</a>
-                // </li>
+                <li>
+                  <a href="/">HOME</a>
+                </li>
                 <li>
                   <AnchorLink href="#about">ABOUT</AnchorLink>
                 </li>
