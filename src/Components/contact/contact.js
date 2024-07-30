@@ -38,14 +38,6 @@ export default function Contact() {
               />
               
             </div>
-            
-            <p>
-              Don't Miss Out The roar of Mufasa, Token is growing louder by the
-              day, and the crypto jungle is buzzing with excitement! Secure your
-              place in the pride and embark on a journey like no other. With
-              Mufasa Token, the sky's the limit as we pave the way for a
-              brighter, bolder future in the world of decentralized finance.
-            </p>
             </Slide>
           </div>
         </div>
@@ -59,29 +51,13 @@ export default function Contact() {
       <div className="social--media--container">
         <Fade cascade triggerOnce>
         <a
-          href="https://x.com/MUFASABASE?t=95x31MFD8TMVccZnXcLvxg&s=09"
+          href="https://x.com/Mapeierc20"
           target="_blank"
         >
           <FaXTwitter className="social--media--logos" title="Twitter" />
         </a>
-        <a href="https://t.me/MufasaPortal" target="_blank">
+        <a href="https://t.me/Mapeierc20" target="_blank">
           <LiaTelegramPlane className="social--media--logos" title="Telegram" />
-        </a>
-        <a href="https://medium.com/@Mufasa_Base">
-          <FaMedium className="social--media--logos" title="Medium" />
-        </a>
-        {/* <a href="/">
-          {" "}
-          <img src={etherscan} alt="404" className="social--media--logos" title="Chart" ></img>
-        </a> */}
-        <a href="/">
-          {" "}
-          <img
-            src={dextools}
-            alt="404"
-            className="social--media--logos"
-            title="Chart"
-          ></img>
         </a>
         </Fade>
       </div>
